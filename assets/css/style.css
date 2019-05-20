@@ -1,14 +1,34 @@
+/*-------------Header---------------*/
+
+body {
+    color: #777777;
+}
 .box set{
     background-color: #ffffff;
 
 }
 .box-1 {
     background-color: #4aaaa5;
+    color: hsl(0, 0%, 100%);
 }
 nav {
     color: #4aaaa5;
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+    font-size: 1.8em;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    Margin: 10px
 }
+/*----------------Section-------------*/
 
-.text {
-    color: #777777;
+section {
+    height: 960px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+}
+/*------------Footer-----------------*/
+footer {
+    background: #666666;
 }
